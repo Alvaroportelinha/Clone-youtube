@@ -1,0 +1,166 @@
+@import url(global.css);
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+h2 {
+    font-family: robto;
+}
+
+body {
+    max-width: 1440px;
+}
+
+header {}
+
+nav {
+    display: flex;
+    border: 1px solid rgb(187, 187, 187);
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+
+}
+
+#navleft {
+    width: 146px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+#navcenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 404px;
+    height: 24px;
+
+
+}
+.foto-perfil{
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+}
+
+.sourch {
+    width: 300px;
+    height: 24px;
+    padding: 0;
+
+}
+
+.sourchr {
+    height: 24px;
+    padding: 0;
+    align-items: center;
+    top: 10px;
+    justify-content: center;
+
+}
+
+.navitem img {}
+
+#navright {
+    width: 130px;
+    height: 34px;
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+main {
+    background-color: rgba(241, 241, 241, 0.466);
+    display: flex;
+}
+
+.contein {
+    display: flex;
+    margin-left: 50px;
+
+}
+
+.video {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px;
+
+
+
+
+
+}
+
+.frame {
+    width: 666px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.framer {
+
+    border-radius: 8px;
+
+
+}
+
+.canal {
+    margin-left: 20px;
+    margin-top: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 666px;
+    justify-content: space-evenly;
+ 
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.canal button {
+    background-color: red;
+    padding: 10px;
+    border: 0px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.descricao {
+    justify-content: flex-start;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+.descricao p{
+    padding: 10px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 370px;
+    margin: 10px;
+    height: max-content;
+    gap: 10px;
+    margin-left: 30px;
+
+}
